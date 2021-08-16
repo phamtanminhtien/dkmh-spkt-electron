@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DKMH</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row header d-flex justify-content-center">
+            <div class="h1 text-center">Đăng Ký Môn Học</div>
+        </div>
+        <div class="row form_data">
+            <div class="col-12">
+                <form>
+                    <div class="form-group">
+                        <label for="cookie">Cookie: </label>
+                        <input type="text" class="form-control" id="cookie_ID" aria-describedby="cookieHelp"
+                            placeholder="Nhập cookie">
+                        <small id="cookieHelp" class="form-text text-muted">Lấy cookie từ dkmh</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="mhp">Mã học phần: </label>
+                        <input type="text" class="form-control" id="mhp_ID" placeholder="Nhập mã học phần">
+                        <small id="cookieHelp" class="form-text text-muted">Nhập các mã cách nhau bằng dấu |</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="mhp">Tên học phần: </label>
+                        <input type="text" class="form-control" id="thp_ID" placeholder="Nhập tên học phần">
+                        <small id="cookieHelp" class="form-text text-muted">Nhập các tên cách nhau bằng dấu | <span style="color:red;">(* Theo thứ tự của Mã học Phần)<span></small>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn_submit">Submit</button>
+                    <button type="submit" class="btn btn-danger btn_stop">Stop</button>
+                </form>
+            </div>
+        </div>
+        <div class="row load" style="display:none">
+            <div class="col-12">
+                <?xml version="1.0" encoding="utf-8"?>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    style="margin: auto; background: none; display: block; shape-rendering: auto;" width="100px"
+                    height="100px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                    <g transform="rotate(0 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                begin="-0.9166666666666666s" repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(30 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                begin="-0.8333333333333334s" repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(60 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.75s"
+                                repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(90 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                begin="-0.6666666666666666s" repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(120 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                begin="-0.5833333333333334s" repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(150 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5s"
+                                repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(180 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                begin="-0.4166666666666667s" repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(210 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                begin="-0.3333333333333333s" repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(240 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.25s"
+                                repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(270 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                begin="-0.16666666666666666s" repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(300 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s"
+                                begin="-0.08333333333333333s" repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <g transform="rotate(330 50 50)">
+                        <rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#215d38">
+                            <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s"
+                                repeatCount="indefinite"></animate>
+                        </rect>
+                    </g>
+                    <!-- [ldio] generated by https://loading.io/ -->
+                </svg>
+            </div>
+        </div>
+        <div class="row result mt-10">
+        </div>
+
+
+        <div class="row result-dk mt-10">
+        </div>
+        <div class="row mt-10">
+            <div class="col-12" style="margin-bottom: 10px;"> <button class="btn btn-primary toggle">Toggle Log
+                    Table</button> </div>
+            <div class="col-12 log" style="max-height: 300px;overflow-y: scroll;"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./eng.js"></script>
+</body>
+
+</html>
