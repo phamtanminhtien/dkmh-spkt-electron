@@ -13,7 +13,6 @@ function createWindow() {
     },
   });
   win.loadFile("index.html");
-  win.webContents.openDevTools();
   // win.setMenu(null);
 }
 ipc.on("get-path", async (e, ar) => {
